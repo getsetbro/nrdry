@@ -1,0 +1,58 @@
+body {
+  background-color: #3e7edb;
+  background-image: url('../images/cityscape.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  //background-size: cover;
+
+  color: #282b2e;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  margin:0;
+
+  *{
+    box-sizing: border-box;
+  }
+}
+
+.clearfix:after, .clearfixer{
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.floatright{
+  float: right;
+}
+.floatleft{
+  float: left;
+}
+a{
+  color: #282b2e;
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+p{
+  margin-top: 10px;
+  line-height: 1.2em;
+
+}
+
+hr{
+    height: 1px;
+    border:0 none;
+    background-color: #cccdcd;
+}
+.clearer{
+  padding: 1px 10px 0;
+  margin:0;
+  clear:both;
+
+  hr{
+    margin: 0 0 20px;
+  }
+}
