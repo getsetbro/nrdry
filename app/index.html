@@ -16,7 +16,8 @@
     <div class="floatright">
         <form class="searchform sitesearch">
           <div>
-            <input type="text" placeholder="Search"/><button type="submit" title="Run the search">&nbsp;</button>
+            <input type="text" placeholder="Search"/>
+            <button type="submit" title="Run the search">&nbsp;</button>
           </div>
         </form>
         <ul class="ul light">
@@ -39,14 +40,40 @@
   </nav>
 
   <main class="container sitemain">
-    <section class="clearfix grid-container">
+    <section class="grid-container">
       <div class="grid70">
         <div class="gridinner" style="height:420px">
+          <div id="carousel" class="ch1">
+            <div id="ch1" class="carousel-hero" style="background-image:url('images/slide01.jpg')">
+              <div class="carousel-hero-meta"><h3>DOWNTOWN BALTIMORE</h3><p>Check out the USS Torsk at Baltimore’s historic Maritime Museum.</p></div>
+            </div>
+            <div id="ch2" class="carousel-hero" style="background-image:url('images/slide02.jpg')">
+              <div class="carousel-hero-meta"><h3>EXPLORING THE VENETIAN</h3><p>Enjoy the best gondola ride on this side of the Atlantic Ocean.</p></div>
+            </div>
+            <div id="ch3" class="carousel-hero" style="background-image:url('images/slide03.jpg')">
+              <div class="carousel-hero-meta"><h3>LONDON AFTER DARK</h3><p>Enjoy the pubs along the river Thames &amp; get spectacular view from the London Eye.</p></div>
+            </div>
+            <div id="ch4" class="carousel-hero" style="background-image:url('images/slide04.jpg')">
+              <div class="carousel-hero-meta"><h3>MOUNT RUSHMORE</h3><p>Marvel at the majestic beauty of the Black Hills and come face to face with American history.</p></div>
+            </div>
+            <div id="ci_1" class="carousel-item"><div class="arrow"></div><div class="img-wrap"><img src="images/slide01.jpg"/><div class="border"></div></div></div>
+            <div id="ci_2" class="carousel-item"><div class="arrow"></div><div class="img-wrap"><img src="images/slide02.jpg"/><div class="border"></div></div></div>
+            <div id="ci_3" class="carousel-item"><div class="arrow"></div><div class="img-wrap"><img src="images/slide03.jpg"/><div class="border"></div></div></div>
+            <div id="ci_4" class="carousel-item"><div class="arrow"></div><div class="img-wrap"><img src="images/slide04.jpg"/><div class="border"></div></div></div>
+
+            <div class="clearer"></div>
+
+            </div>
+          </div>
         </div>
       </div>
       <div class="grid30">
-        <div class="gridinner" style="height:200px"></div>
-        <div class="gridinner" style="height:200px"></div>
+        <div class="gridinner" style="height:200px">
+          <img src="images/ad01.jpg" alt=""/>
+        </div>
+        <div class="gridinner" style="height:200px">
+          <img src="images/ad02.jpg" alt=""/>
+        </div>
       </div>
       <div class="clearer"><hr></div>
       <div class="grid70 grid-parent">
@@ -82,20 +109,23 @@
             <i class="ico ico-list">&nbsp;</i> RECENT ARTICLES
           </h2>
           <div class="gridinner">
-            <div class="clearfix article">
+            <div class="article">
               <div class="thumb"><img src="http://placekitten.com/g/200/300" alt=""/></div>
               <h3 class="h3">Don’t Miss the Parades at DisneyWorld</h3>
               <p>The parades at Disney World are a one of a kind celebration full of all your favorite Disney characters and music. The entertainment never stops as parades are scheduled throughout the entire day.</p>
+              <div class="clearer"></div>
             </div>
-            <div class="clearfix article">
+            <div class="article">
               <div class="thumb"><img src="http://placekitten.com/g/200/300" alt=""/></div>
               <h3 class="h3">Don’t Miss the Parades at DisneyWorld</h3>
               <p>The parades at Disney World are a one of a kind celebration full of all your favorite Disney characters and music. The entertainment never stops as parades are scheduled throughout the entire day.</p>
+              <div class="clearer"></div>
             </div>
-            <div class="clearfix article">
+            <div class="article">
               <div class="thumb"><img src="http://placekitten.com/g/200/300" alt=""/></div>
               <h3 class="h3">Don’t Miss the Parades at DisneyWorld</h3>
               <p>The parades at Disney World are a one of a kind celebration full of all your favorite Disney characters and music. The entertainment never stops as parades are scheduled throughout the entire day.</p>
+              <div class="clearer"></div>
             </div>
           </div>
         </div>
@@ -105,25 +135,69 @@
           <div class="hanger"></div>
           <i class="ico ico-video">&nbsp;</i> Popular Videos
         </h2>
-        <div class="clearfix media-wrap">
+        <div class="media-wrap">
           <div class="grid30 media"><div class="gridinner">d</div></div>
           <div class="grid30 media"><div class="gridinner">d</div></div>
           <div class="grid30 media"><div class="gridinner">d</div></div>
           <div class="grid30 media"><div class="gridinner">d</div></div>
           <div class="grid30 media"><div class="gridinner">d</div></div>
           <div class="grid30 media"><div class="gridinner">d</div></div>
+          <div class="clearer"></div>
         </div>
       </div>
       </div>
       <div class="grid30">
-        <div class="gridinner" style="height:200px"></div>
-        <div class="gridinner" style="height:200px"></div>
-        <div class="gridinner" style="height:200px"></div>
-        <div class="gridinner" style="height:200px"></div>
+        <div class="gridinner" style="height:200px">
+          <h2 class="h2 swidget-h2">
+            <i class="ico ico-list">&nbsp;</i> SIGN UP FOR OUR NEWSLETTER
+          </h2>
+          <div class="swidget-main newsletter">
+            <hr>
+            <form>
+              <input type="text" placeholder="user@domain.com"/>
+              <div class="newletters">
+                <em>Select the newsletters you’d like to receive</em>
+                <label>
+                  <input type="checkbox"/> Destinations &amp; Getaways
+                </label>
+                <label>
+                  <input type="checkbox"/> Weekly Travel Tips
+                </label>
+              </div>
+              <button type="submit" class="floatright">Sign up</button>
+              <div class="clearer"></div>
+            </form>
+          </div>
+          <div class="swidget-foot">
+            <ul class="ul">
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Terms of Use</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="gridinner" style="height:200px">
+          <h2 class="h2 swidget-h2">
+            <i class="ico ico-list">&nbsp;</i> CURRENT CONTESTS
+          </h2>
+          <div class="swidget-main contests">
+            <hr>
+            <div class="article">
+              <div class="thumb"><img src="http://placekitten.com/g/200/300" alt=""></div>
+              <h3 class="h3">Don’t Miss the Parades at DisneyWorld</h3>
+              <p>The parades at Disney World are a one of a kind celebration full of all your favorite Disney characters and music. The entertainment never stops as parades are scheduled throughout the entire day.</p>
+              <div class="clearer"></div>
+            </div>
+            <div class="article">
+              <div class="thumb"><img src="http://placekitten.com/g/200/300" alt=""></div>
+              <h3 class="h3">Don’t Miss the Parades at DisneyWorld</h3>
+              <p>The parades at Disney World are a one of a kind celebration full of all your favorite Disney characters and music. The entertainment never stops as parades are scheduled throughout the entire day.</p>
+              <div class="clearer"></div>
+            </div>
+          </div>
+        </div>
+        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/CrispinMulberry" data-widget-id="528213110943776768">Tweets by @CrispinMulberry</a>
       </div>
-
       <div class="clearer"></div>
-
       <div class="grid18">
           <h2 class="h2 hangout">
             <div class="hanger"></div>
@@ -170,19 +244,20 @@
           <div class="hanger"></div>
           <i class="ico ico-video">&nbsp;</i> Popular Videos
         </h2>
-        <div class="clearfix media-wrap">
+        <div class="media-wrap">
           <div class="grid30 media"><div class="gridinner">d</div></div>
           <div class="grid30 media"><div class="gridinner">d</div></div>
           <div class="grid30 media"><div class="gridinner">d</div></div>
           <div class="grid30 media"><div class="gridinner">d</div></div>
           <div class="grid30 media"><div class="gridinner">d</div></div>
           <div class="grid30 media"><div class="gridinner">d</div></div>
+          <div class="clearer"></div>
         </div>
       </div>
       <div class="grid30">
-        <div class="gridinner" style="height:200px"></div>
-        <div class="gridinner" style="height:200px"></div>
+        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/CrispinMulberry" data-widget-id="528213110943776768">Tweets by @CrispinMulberry</a>
       </div>
+      <div class="clearer"></div>
     </section>
   </main>
   <footer class="container">
@@ -205,5 +280,7 @@
   </footer>
   <script src="//code.jquery.com/jquery-latest.min.js"></script>
   <script src="scripts/main.js"></script>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 </body>
 </html>
