@@ -28,10 +28,10 @@
     vertical-align: top;
   }
   input{
+    margin-left: 9px;
+    width: calc(100% - 35px);
     height: 24px;
     outline-style: none;
-    margin-left: 9px;
-    width: calc(100% - 35px)
   }
   button{
     cursor: pointer;

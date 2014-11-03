@@ -102,10 +102,10 @@ footer {
     margin: 0;
     vertical-align: top; }
   .sitesearch input {
-    height: 24px;
-    outline-style: none;
     margin-left: 9px;
-    width: calc(100% - 35px); }
+    width: calc(100% - 35px);
+    height: 24px;
+    outline-style: none; }
   .sitesearch button {
     cursor: pointer;
     height: 24px;
@@ -210,16 +210,13 @@ footer {
 
 .thumb {
   float: left;
-  width: 140px;
-  height: 105px;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-right: 10px; }
   .thumb img {
     max-width: 100%; }
 
 .article {
   margin-bottom: 20px; }
-  .article h3, .article p {
-    margin-left: 156px; }
   .article p {
     margin-bottom: 0; }
 
@@ -270,6 +267,15 @@ hr {
   clear: both; }
   .clearer hr {
     margin: 0 0 20px; }
+
+.inpt {
+  width: 100%;
+  padding-left: 9px;
+  border: 1px solid #cecece;
+  background-color: white;
+  box-shadow: inset 0 0 4px 0 #000;
+  height: 24px;
+  border-radius: 4px; }
 
 .sitemain {
   background-color: #fff;
@@ -408,7 +414,6 @@ hr {
   font-size: 0.85em; }
 
 .newsletter button {
-  margin: 10px;
   padding: 10px;
   text-transform: uppercase;
   background-color: #0084d9;
@@ -416,6 +421,7 @@ hr {
   border: 0 none; }
 
 .newletters {
+  margin: 10px 0;
   padding: 10px;
   background-color: #c7c6c6; }
   .newletters label {

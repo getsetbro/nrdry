@@ -41,9 +41,8 @@
 
 .thumb{
   float: left;
-  width:140px;
-  height: 105px;
   overflow: hidden;
+  margin-right:10px;
   img{
     max-width: 100%;
   }
@@ -52,7 +51,6 @@
 .article{
   margin-bottom: 20px;
   h3, p{
-    margin-left: 156px;
   }
   p{
     margin-bottom: 0;
