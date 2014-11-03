@@ -2,5 +2,3 @@
 .sass-cache
 bower_components
 node_modules
-test
-dist
