@@ -5,6 +5,7 @@
 .media{
   padding: 0;
   padding-left:20px;
+
 }
 .gridinner{
   background-color: #eee;
@@ -12,6 +13,32 @@
 }
 .media .gridinner{
   height: 156px;
+  position: relative;
+  overflow: hidden;
+  p{
+    position: absolute;
+    bottom: 0;
+    padding: 10px 14px;
+    background-color: rgba(227, 228, 228, 0.80);
+    right: 0;
+    left: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: .95em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+  }
+  a{
+    width:46px;
+    height: 46px;
+    margin: 50px 0 0 -23px;
+    background: url('../images/video-play.png') no-repeat center center;
+    position: absolute;
+    top:0;
+    left:50%;
+
+  }
 }
 .grid-parent {
   padding-left: 0;

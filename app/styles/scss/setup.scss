@@ -1,19 +1,23 @@
 body {
   background-color: #3e7edb;
-  background-image: url('../images/cityscape.jpg');
+  background-image: url('../images/bg.jpg');
   background-repeat: no-repeat;
   background-position: center top;
-  //background-size: cover;
+  background-size: cover;
 
   color: #282b2e;
   font-family: helvetica, arial, sans-serif;
   font-size: 14px;
   line-height: 1;
   margin:0;
+  position: relative;
 
   *{
     box-sizing: border-box;
   }
+}
+header,nav,main,footer{
+  position: relative;
 }
 
 .clearfix:after, .clearfixer{
