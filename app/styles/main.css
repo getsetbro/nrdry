@@ -142,7 +142,8 @@
 .ul {
   display: block;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  list-style: none outside none; }
   .ul li {
     display: inline;
     padding: 0 11px;
@@ -167,7 +168,8 @@
 .ol {
   display: block;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  list-style: none outside none; }
   .ol li {
     display: block;
     padding: 0;
@@ -193,6 +195,7 @@
     position: absolute;
     bottom: 0;
     padding: 10px 14px;
+    background-color: #e3e4e4;
     background-color: rgba(227, 228, 228, 0.8);
     right: 0;
     left: 0;
@@ -238,7 +241,8 @@
 .thumb {
   float: left;
   overflow: hidden;
-  margin-right: 10px; }
+  margin-right: 10px;
+  font-size: 0; }
   .thumb img {
     max-width: 100%; }
 
@@ -261,6 +265,9 @@ body {
   font-size: 14px;
   line-height: 1;
   margin: 0; }
+
+.lt-ie9 body {
+  background-position: center bottom; }
 
 hr {
   height: 1px;
@@ -438,11 +445,13 @@ p {
 
 .swidget-main {
   background-color: #dbdbdb;
-  padding: 0 10px 10px;
+  padding: 0 10px 1px;
   font-size: 0.85em; }
   .swidget-main hr {
     background-color: #969696;
     margin: 0 0 10px; }
+  .swidget-main .article {
+    margin-bottom: 9px; }
 
 .swidget-foot {
   text-align: center;
@@ -451,12 +460,13 @@ p {
   border-top: 1px solid #969696;
   font-size: 0.85em; }
 
-.newsletter button {
+.newsletter-btn {
   padding: 10px;
   text-transform: uppercase;
   background-color: #0084d9;
   color: #fff;
-  border: 0 none; }
+  border: 0 none transparent;
+  margin-bottom: 9px; }
 
 .newletters {
   margin: 10px 0;

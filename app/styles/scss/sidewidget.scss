@@ -5,12 +5,15 @@
 }
 .swidget-main{
   background-color: #dbdbdb;
-  padding: 0 10px 10px;
+  padding: 0 10px 1px;
   font-size: .85em;
 
   hr{
       background-color: #969696;
       margin: 0 0 10px
+  }
+  .article{
+    margin-bottom: 9px;
   }
 }
 .swidget-foot{
@@ -20,16 +23,16 @@
   border-top:1px solid #969696;
   font-size: .85em;
 }
-.newsletter{
-
-  button{
+.newsletter-btn{
     padding: 10px;
     text-transform: uppercase;
     background-color: #0084d9;
     color: #fff;
-    border: 0 none;
+    border: 0 none transparent;
+    margin-bottom: 9px;
+
   }
-}
+
 .newletters{
   margin: 10px 0;
   padding: 10px;

@@ -14,7 +14,9 @@ body {
   line-height: 1;
   margin:0;
 }
-
+.lt-ie9 body{
+  background-position: center bottom;
+}
 hr{
     height: 1px;
     border:0 none;
