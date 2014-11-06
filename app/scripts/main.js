@@ -42,6 +42,21 @@
     }
   });
 
+Modernizr.addTest("boxsizing", function() {
+    return Modernizr.testAllProps("boxSizing") && (document.documentMode === undefined || document.documentMode > 7);
+});
+
+    if( !($('html').hasClass('boxsizing')) ){
+        $('.boxSized, .boxSized *').each(function(){
+            var fullW = $(this).outerWidth(),
+                actualW = $(this).width(),
+                wDiff = fullW - actualW,
+                newW = actualW - wDiff;
+
+            $(this).css('width',newW);
+        });
+    }
+
 //twitter widget
 !function(d,s,id){
   var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}

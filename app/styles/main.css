@@ -268,7 +268,20 @@ body {
   line-height: 1;
   margin: 0; }
 
-.clearfix:after, .clearfixer {
+hr {
+  height: 1px;
+  border: 0 none;
+  background-color: #cccdcd; }
+
+.clearer {
+  padding: 1px 10px 0;
+  margin: 0;
+  clear: both;
+  font-size: 0; }
+  .clearer hr {
+    margin: 0 0 20px; }
+
+.clearfixer {
   clear: both;
   content: "";
   display: block;
@@ -290,18 +303,6 @@ a {
 p {
   margin-top: 10px;
   line-height: 1.2em; }
-
-hr {
-  height: 1px;
-  border: 0 none;
-  background-color: #cccdcd; }
-
-.clearer {
-  padding: 1px 10px 0;
-  margin: 0;
-  clear: both; }
-  .clearer hr {
-    margin: 0 0 20px; }
 
 .lt-ie9 body {
   padding: 0 1% 0 0;
