@@ -43,16 +43,16 @@
   });
 
 
-    if( ($('html').hasClass('lt-ie9')) ){
-        $('.grid70, .grid30, .grid33').each(function(){
-            var fullW = $(this).outerWidth(),
-                actualW = $(this).width(),
-                wDiff = fullW - actualW,
-                newW = actualW - wDiff;
+  if( ($('html').hasClass('lt-ie9')) ){
+      $('.grid70, .grid30, .grid33').each(function(){
+          var fullW = $(this).outerWidth(),
+              actualW = $(this).width(),
+              wDiff = fullW - actualW,
+              newW = actualW - wDiff;
 
-            $(this).css('width',newW);
-        });
-    }
+          $(this).css('width',newW);
+      });
+  }
 
 //twitter widget
 !function(d,s,id){
