@@ -49,13 +49,10 @@
 .ol + h3 {
   margin-top: 15px; }
 
-.grid18, .grid27, .grid30, .grid33, .grid48, .grid70, .grid72 {
+.grid27, .grid30, .grid33, .grid70, .grid72 {
   float: left;
   padding-left: 10px;
   padding-right: 10px; }
-
-.grid18 {
-  width: 20%; }
 
 .grid27 {
   width: 28.5%; }
@@ -68,9 +65,6 @@
 
 .grid70 {
   width: 70%; }
-
-.grid48 {
-  width: 50%; }
 
 .grid72 {
   width: 71.5%; }
@@ -303,12 +297,6 @@ a {
 p {
   margin-top: 10px;
   line-height: 1.2em; }
-
-.lt-ie9 body {
-  padding: 0 1% 0 0;
-  width: 101%; }
-.lt-ie9 div {
-  zoom: 1; }
 
 .inpt {
   width: 100%;
