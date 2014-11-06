@@ -58,3 +58,7 @@ hr{
     margin: 0 0 20px;
   }
 }
+
+.lt-ie9 div {
+  min-width: 100%;
+}
