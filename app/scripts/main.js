@@ -44,13 +44,21 @@
 
 
   if( ($(document.body).hasClass('lt-ie9')) ){
-      $('.grid27, .grid30, .grid33, .grid70, .grid72, .grid100, .carousel-item, .footer').each(function(){
+      $('.grid27, .grid30, .grid70, .grid72, .grid100, .footer').each(function(){
           var fullW = $(this).outerWidth(),
               actualW = $(this).width(),
               wDiff = fullW - actualW,
               newW = actualW - wDiff;
 
           $(this).css('width',newW);
+      });
+      $('.grid33, .carousel-item').each(function(){
+          var fullW = $(this).outerWidth(),
+              actualW = $(this).width(),
+              wDiff = fullW - actualW,
+              newW = actualW - wDiff;
+
+          $(this).css('width', newW - 10 );
       });
   }
 
