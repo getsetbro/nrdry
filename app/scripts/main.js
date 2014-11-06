@@ -58,7 +58,7 @@
               wDiff = fullW - actualW,
               newW = actualW - wDiff;
 
-          $(this).css('width', newW - 10 );
+          $(this).css('width', newW - 1 );
       });
   }
 
