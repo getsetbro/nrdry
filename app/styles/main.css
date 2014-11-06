@@ -253,6 +253,9 @@
   .article p {
     margin-bottom: 0; }
 
+* {
+  box-sizing: border-box; }
+
 body {
   background-color: #3e7edb;
   background-image: url('../images/bg.jpg');
@@ -263,10 +266,7 @@ body {
   font-family: helvetica, arial, sans-serif;
   font-size: 14px;
   line-height: 1;
-  margin: 0;
-  position: relative; }
-  body * {
-    box-sizing: border-box; }
+  margin: 0; }
 
 .clearfix:after, .clearfixer {
   clear: both;

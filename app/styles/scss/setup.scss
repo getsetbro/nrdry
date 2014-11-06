@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body {
   background-color: #3e7edb;
   background-image: url('../images/bg.jpg');
@@ -10,11 +13,8 @@ body {
   font-size: 14px;
   line-height: 1;
   margin:0;
-  position: relative;
 
-  *{
-    box-sizing: border-box;
-  }
+
 }
 
 
