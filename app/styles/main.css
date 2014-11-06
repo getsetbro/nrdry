@@ -2,11 +2,10 @@
 .container {
   margin: 0 15px; }
 
-.container {
-  margin: 0 auto;
-  width: 1000px; }
-
-@media (min-width: 1030px) { }
+@media (min-width: 1030px) {
+  .container {
+    margin: 0 auto;
+    width: 1000px; } }
 
 .footer {
   background-color: #2c2c2c;
@@ -69,8 +68,6 @@
 
 .grid70 {
   width: 70%; }
-  .lt-ie9 .grid70 {
-    width: 55%; }
 
 .grid48 {
   width: 50%; }
@@ -305,6 +302,9 @@ hr {
   clear: both; }
   .clearer hr {
     margin: 0 0 20px; }
+
+.lt-ie9 div {
+  min-width: 100%; }
 
 .inpt {
   width: 100%;
