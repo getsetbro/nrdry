@@ -59,6 +59,9 @@ hr{
   }
 }
 
-.lt-ie9 div {
-  min-width: 100%;
+.lt-ie9 {
+        body {
+        padding:0 1% 0 0;
+        width:101%;
+        }
 }

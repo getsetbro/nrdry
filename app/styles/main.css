@@ -303,8 +303,9 @@ hr {
   .clearer hr {
     margin: 0 0 20px; }
 
-.lt-ie9 div {
-  min-width: 100%; }
+.lt-ie9 body {
+  padding: 0 1% 0 0;
+  width: 101%; }
 
 .inpt {
   width: 100%;
@@ -333,25 +334,24 @@ hr {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#d0d0d0',GradientType=0 );
   text-align: center;
   overflow: hidden; }
-  .sitenav ul {
+  .sitenav .tbl {
     display: table;
     width: 100%;
     margin: 0 auto;
     padding: 0; }
-  .sitenav li {
-    display: table-cell; }
-    .sitenav li a {
+  .sitenav .tbl td {
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px; }
+    .sitenav .tbl td a {
       border: 1px solid #bdbdbd;
       border-width: 1px 0;
       color: rgba(40, 43, 46, 0.8);
-      display: block;
-      height: 40px;
-      padding: 14px 0 0;
       text-transform: uppercase;
       font-weight: bold;
       font-size: 12px;
       text-shadow: 0 1px 0 #fff; }
-      .sitenav li a:hover {
+      .sitenav .tbl td a:hover {
         text-decoration: none;
         background-color: #e1e3e6;
         background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UxZTNlNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiYWJjYmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -359,7 +359,7 @@ hr {
         background-image: -webkit-linear-gradient(top, #e1e3e6 0%, #babcbf 100%);
         background-image: linear-gradient(to bottom, #e1e3e6 0%, #babcbf 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1e3e6', endColorstr='#babcbf',GradientType=0 ); }
-      .sitenav li a.active, .sitenav li a:target {
+      .sitenav .tbl td a.active, .sitenav .tbl td a:target {
         background-color: #fff;
         background-image: none;
         border-width: 1px 1px 0;
@@ -376,7 +376,9 @@ hr {
   display: none;
   height: 330px;
   width: 100%;
-  position: relative; }
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center 0; }
 
 .ch1 #ch1, .ch2 #ch2, .ch3 #ch3, .ch4 #ch4 {
   display: block; }
