@@ -176,9 +176,7 @@
     line-height: 1.3em; }
 
 .media-wrap {
-  -webkit-transform: translateX(-10px);
-      -ms-transform: translateX(-10px);
-          transform: translateX(-10px); }
+  margin-left: -10px; }
 
 .media {
   padding: 0;
@@ -267,7 +265,7 @@ body {
   line-height: 1;
   margin: 0; }
 
-.lt-ie9 body {
+body.lt-ie9 {
   background-position: center bottom; }
 
 hr {
@@ -301,6 +299,8 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+  a img {
+    border: 0 none; }
 
 p {
   margin-top: 10px;
