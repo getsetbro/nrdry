@@ -42,12 +42,9 @@
     }
   });
 
-Modernizr.addTest("boxsizing", function() {
-    return Modernizr.testAllProps("boxSizing") && (document.documentMode === undefined || document.documentMode > 7);
-});
 
-    if( !($('html').hasClass('boxsizing')) ){
-        $('.boxSized, .boxSized *').each(function(){
+    if( ($('html').hasClass('lt-ie9')) ){
+        $('.grid70, .grid30, .grid33').each(function(){
             var fullW = $(this).outerWidth(),
                 actualW = $(this).width(),
                 wDiff = fullW - actualW,
