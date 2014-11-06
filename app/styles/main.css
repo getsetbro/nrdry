@@ -306,6 +306,8 @@ hr {
 .lt-ie9 body {
   padding: 0 1% 0 0;
   width: 101%; }
+.lt-ie9 div {
+  zoom: 1; }
 
 .inpt {
   width: 100%;
