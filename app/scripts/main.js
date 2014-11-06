@@ -43,8 +43,8 @@
   });
 
 
-  if( ($('html').hasClass('lt-ie9')) ){
-      $('.grid27, .grid30, .grid33, .grid70, .grid72, .grid100, .carousel-item').each(function(){
+  if( ($(document.body).hasClass('lt-ie9')) ){
+      $('.grid27, .grid30, .grid33, .grid70, .grid72, .grid100, .carousel-item, .footer').each(function(){
           var fullW = $(this).outerWidth(),
               actualW = $(this).width(),
               wDiff = fullW - actualW,

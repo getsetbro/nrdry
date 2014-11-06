@@ -14,7 +14,7 @@ body {
   line-height: 1;
   margin:0;
 }
-.lt-ie9 body{
+body.lt-ie9{
   background-position: center bottom;
 }
 hr{
@@ -50,6 +50,9 @@ a{
   text-decoration: none;
   &:hover{
     text-decoration: underline;
+  }
+  img{
+    border: 0 none;
   }
 }
 p{
