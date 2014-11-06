@@ -44,7 +44,7 @@
 
 
   if( ($('html').hasClass('lt-ie9')) ){
-      $('.grid27, .grid30, .grid33, .grid70, .grid72, .carousel-item').each(function(){
+      $('.grid27, .grid30, .grid33, .grid70, .grid72, .grid100, .carousel-item').each(function(){
           var fullW = $(this).outerWidth(),
               actualW = $(this).width(),
               wDiff = fullW - actualW,
