@@ -16,23 +16,22 @@
   text-align: center;
   overflow: hidden;
 
-  ul{
+  .tbl{
     display: table;
     width:100%;
     margin:0 auto;
     padding:0;
   }
 
-  li{
+  .tbl td{
     display: table-cell;
+    vertical-align: middle;
+    height: 40px;
     a{
 
       border:1px solid #bdbdbd;
       border-width:1px 0;
       color: rgba(40, 43, 46, 0.8);
-      display: block;
-      height: 40px;
-      padding: 14px 0 0;
       text-transform: uppercase;
       font-weight: bold;
       font-size: 12px;
