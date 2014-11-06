@@ -195,7 +195,6 @@
     position: absolute;
     bottom: 0;
     padding: 10px 14px;
-    background-color: #e3e4e4;
     background-color: rgba(227, 228, 228, 0.8);
     right: 0;
     left: 0;
@@ -205,6 +204,8 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis; }
+    .lt-ie9 .media .gridinner p {
+      background-color: #e3e4e4; }
   .media .gridinner a {
     width: 46px;
     height: 46px;
@@ -387,10 +388,11 @@ p {
   bottom: 0;
   left: 0;
   height: 70px;
-  background-color: #e4e4e4;
   background-color: rgba(228, 228, 228, 0.8);
   padding: 15px 15px 0;
   overflow: hidden; }
+  .lt-ie9 .carousel-hero-meta {
+    background-color: #e4e4e4; }
   .carousel-hero-meta h3 {
     white-space: nowrap;
     margin: 0;
