@@ -3,10 +3,10 @@
 }
 body {
   background-color: #3e7edb;
-  background-image: url('../images/bg.jpg');
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
+  /*background-image: url('../images/bg.jpg');*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: center top;*/
+  /*background-size: cover;*/
 
   color: #282b2e;
   font-family: helvetica, arial, sans-serif;
@@ -14,9 +14,29 @@ body {
   line-height: 1;
   margin:0;
 }
+
 body.lt-ie9{
-  background-position: center bottom;
+  /*background-position: center bottom;*/
 }
+#bgw{
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  z-index: -1;
+  overflow: hidden;
+  font-size: 0;
+}
+#bgImg{
+  display: block;
+  margin: 0 auto;
+}
+.contain{
+  max-width: 1000px;
+  margin: 0 auto;
+  min-width: 680px;
+}
+
 hr{
     height: 1px;
     border:0 none;
