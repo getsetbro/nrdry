@@ -1,6 +1,5 @@
 
 .sitenav{
-  height: 44px;
   text-align: center;
   overflow: hidden;
 
@@ -26,9 +25,9 @@
     font-size: 12px;
     text-transform: uppercase;
     text-shadow:0 1px 0 #fff;
-    height: 40px;
     width:16.667%;
     padding-top: 14px;
+    padding-bottom: 14px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow:ellipsis;
@@ -51,8 +50,6 @@
       background-color:#fff;
       background-image: none;
       border-width:1px 1px 0;
-
-      height: 44px;
       margin-top:0;
       padding-top: 18px;
 
@@ -60,8 +57,8 @@
     }
     .lt-ie8 &{
       width:auto;
-      padding-right: 41.95px;
-      padding-left: 41.95px;
+      padding-right: 45px;
+      padding-left: 44px;
     }
   }
 
