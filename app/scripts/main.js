@@ -49,7 +49,7 @@
   //end carousel
 
   //set sizes for old IE
-    if (($documentBody.hasClass('lt-ie9'))) {
+    if (($documentBody.hasClass('lt-ie8'))) {
         $('.grid27, .grid30, .grid70, .grid72, .grid100').each(function() {
             var fullW = $(this).outerWidth(),
                 actualW = $(this).width(),
