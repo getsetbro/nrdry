@@ -46,7 +46,7 @@
 
     }
 
-    &.active, &:target{
+    &.active, &:target, &.selected{
       background-color:#fff;
       background-image: none;
       border-width:1px 1px 0;
