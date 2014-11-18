@@ -3,11 +3,6 @@
 }
 body {
   background-color: #3e7edb;
-  /*background-image: url('../images/bg.jpg');*/
-  /*background-repeat: no-repeat;*/
-  /*background-position: center top;*/
-  /*background-size: cover;*/
-
   color: #282b2e;
   font-family: helvetica, arial, sans-serif;
   font-size: 14px;
@@ -15,9 +10,7 @@ body {
   margin:0;
 }
 
-body.lt-ie9{
-  /*background-position: center bottom;*/
-}
+
 #bgw{
   position: absolute;
   top:0;
@@ -30,6 +23,7 @@ body.lt-ie9{
 #bgImg{
   display: block;
   margin: 0 auto;
+  width: 100%
 }
 .contain{
   max-width: 1000px;
@@ -42,7 +36,7 @@ hr{
     border:0 none;
     background-color: #cccdcd;
 }
-.clearer{
+.clearfixer{
   padding: 1px 10px 0;
   margin:0;
   clear:both;
@@ -52,7 +46,7 @@ hr{
     margin: 0 0 20px;
   }
 }
-.clearfixer{
+.clearer{
   clear: both;
   content: "";
   display: block;

@@ -58,8 +58,10 @@
 
       outline-style: none;
     }
-
-    span{
+    .lt-ie8 &{
+      width:auto;
+      padding-right: 41.95px;
+      padding-left: 41.95px;
     }
   }
 

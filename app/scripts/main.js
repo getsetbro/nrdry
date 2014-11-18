@@ -11,9 +11,11 @@
     var delay = 5000;
     var shouldContinue = true;
     var startTime;
+    var moveCarousel;
     var timer;
 
-    var moveCarousel = function(itm) {
+  //carousel
+    moveCarousel = function(itm) {
         $carousel.attr('class', 'ch' + itm);
         if (shouldContinue) {
             timer = setTimeout(startTime, delay);
@@ -44,10 +46,11 @@
             timer = setTimeout(startTime, delay);
         }
     });
+  //end carousel
 
-
+  //set sizes for old IE
     if (($documentBody.hasClass('lt-ie9'))) {
-        $('.grid27, .grid30, .grid70, .grid72, .grid100, .footer').each(function() {
+        $('.grid27, .grid30, .grid70, .grid72, .grid100').each(function() {
             var fullW = $(this).outerWidth(),
                 actualW = $(this).width(),
                 wDiff = fullW - actualW,
@@ -65,7 +68,10 @@
         });
     }
 
-//set the background size on page load
+
+$(window).load(function(){
+     //initialize after images are loaded
+    //set the background size on page load
     if ($documentBody.width() < $documentBody.height()) {
         $bgImg.height($contain.height());
         $bgImg.width('auto');
@@ -75,7 +81,7 @@
         $bgImg.width($documentBody.width());
         $bgw.height($contain.height());
     }
-
+});
 })();
 
 //twitter widget

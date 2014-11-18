@@ -10,7 +10,7 @@
 .gridinner{
   margin-bottom: 20px;
 }
-.media .gridinner{
+.media > div{
   height: 156px;
   position: relative;
   overflow: hidden;
@@ -29,7 +29,7 @@
     text-overflow:ellipsis;
 
     background-color: rgba(227, 228, 228, 0.80);
-    .lt-ie9 &{
+    .lt-ie8 &{
       background-color: #e3e4e4;
     }
 
