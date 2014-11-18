@@ -477,10 +477,8 @@ form{
     height: 70px;
     padding: 15px 15px 0;
 
-    background-color: rgba(228, 228, 228, .8);
-}
-.lt-ie8 .carousel-hero-meta{
     background-color: #e4e4e4;
+    background-color: rgba(228, 228, 228, .8);
 }
 .carousel-hero-meta h3{
     font-size: 24px;
